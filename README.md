@@ -22,6 +22,5 @@ My little ReactJS project – created for fun and imporving skills.
 &emsp; `npm run start`
 
 ## Little overview
-![]()
 
 ## Thanks for your attention!
