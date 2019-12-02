@@ -22,5 +22,15 @@ My little ReactJS project – created for fun and imporving skills.
 &emsp; `npm run start`
 
 ## Little overview
+This is the main page of application. There are lots of pokemons, just click "LOAD MORE" to see all pokemons you can catch!
 
-## Thanks for your attention!
+To catch pokemon just click "CATCH" button: then, you will see pokemons you've catched at the "Catched Pokemons" page
+
+![](https://github.com/microdavewave/pokedex/blob/master/project_overview/1.png)
+
+
+This is the page with catched pokemons. To get additional info about pokemon just click at pokemon card 
+
+![](https://github.com/microdavewave/pokedex/blob/master/project_overview/2.png)
+
+## Thanks for your attention!  :smiley_cat:
