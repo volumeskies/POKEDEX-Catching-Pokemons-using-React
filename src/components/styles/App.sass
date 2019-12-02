@@ -1,0 +1,18 @@
+@import "colors"
+
+/*              MIXINS              */
+@mixin set_flex($direction, $justify, $align)
+    display: flex
+    flex-direction: $direction
+    justify-content: $justify
+    align-items: $align
+
+/*---------------APP---------------*/
+.App
+    @include set_flex(column, flex-start, center)
+    width: 65vw
+    height: 100vh
+    max-height: 100vh
+    background-color: white
+    margin: auto
+    box-shadow: 1px 7px 50px -4px rgba(2,18,18,0.33)

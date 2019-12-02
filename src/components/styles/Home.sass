@@ -1,0 +1,16 @@
+/*              MIXINS              */
+@mixin set_flex($direction, $justify, $align)
+    display: flex
+    flex-direction: $direction
+    justify-content: $justify
+    align-items: $align
+
+/*--------------HOME---------------*/
+.tabs
+    margin-top: 2em
+    @include set_flex(column, center, center)
+    &__items
+        @include set_flex(row, space-between, center)
+        flex-wrap: wrap
+        width: 90%
+    

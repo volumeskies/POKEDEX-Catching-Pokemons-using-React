@@ -1,0 +1,41 @@
+@import "colors"
+
+h1
+    color: $pale-red
+
+    /*              MIXINS              */
+@mixin set_flex($direction, $justify, $align)
+    display: flex
+    flex-direction: $direction
+    justify-content: $justify
+    align-items: $align
+
+@mixin button_reset()
+    outline: none
+    text-decoration: none
+    display: inline-block
+    text-align: center
+    cursor: pointer
+    user-select: none
+    border: none
+
+/*--------------HOME---------------*/
+.tabs__wrapper
+    @include set_flex(column, center, center)
+    width: 65vw
+    background-color: white
+
+.tabs__items
+    @include set_flex(row, space-between, center)
+    flex-wrap: wrap
+    width: 90%
+    
+.loadmorebutton
+    margin: 4em
+    @include button_reset()
+    border-radius: 20px
+    padding: 5px 20px
+    font-size: 20px
+    background-color: $pale-red
+    color: white
+    font-weight: 700

@@ -1,0 +1,50 @@
+@import "colors"
+/*              MIXINS              */
+@mixin button_reset()
+    outline: none
+    text-decoration: none
+    display: inline-block
+    text-align: center
+    cursor: pointer
+    user-select: none
+    border: none
+
+@mixin set_flex($direction, $justify, $align)
+    display: flex
+    flex-direction: $direction
+    justify-content: $justify
+    align-items: $align
+
+/*--------------HEADER--------------*/
+
+.header
+    width: 100%
+    padding: 0.1em 0.5em
+    background-color: $pale-red
+    @include set_flex(row, space-between, center)
+    &__logo
+        @include set_flex(row, space-between, center)
+        h1 
+            color: white
+            padding-bottom: 5px
+
+h1, h2
+    color: white
+
+h1
+    font-size: 40px
+h2
+    font-size: 20px
+    font-weight: 400
+.nav
+    @include set_flex(row, center, center)
+    &__button
+        margin: 5px
+        @include button_reset()
+        border-radius: 20px
+        padding: 5px 20px
+        font-size: 20px
+        background-color: transparent
+        color: white
+        font-weight: 700
+        border: 2px solid white

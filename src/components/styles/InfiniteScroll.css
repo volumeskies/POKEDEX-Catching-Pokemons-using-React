@@ -1,0 +1,61 @@
+/*              COLORS              */
+h1 {
+  color: #ec524fb7;
+  /*              MIXINS              */ }
+
+/*--------------HOME--------------- */
+.tabs__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65vw;
+  background-color: white; }
+
+.tabs__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%; }
+
+.loadmorebutton {
+  margin: 4em;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: #ec524fb7;
+  color: white;
+  font-weight: 700; }
+
+/*# sourceMappingURL=InfiniteScroll.css.map */

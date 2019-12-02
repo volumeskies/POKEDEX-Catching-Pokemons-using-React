@@ -1,0 +1,61 @@
+/*              COLORS              */
+/*              MIXIN               */
+/*---------------TAB--------------- */
+.tabs__tab {
+  text-align: center;
+  margin: 2em;
+  margin-bottom: 0.6em;
+  width: 200px;
+  height: 300px;
+  background-color: #efefefef;
+  -webkit-box-shadow: 4px 12px 21px -1px rgba(0, 0, 0, 0.57);
+          box-shadow: 4px 12px 21px -1px rgba(0, 0, 0, 0.57);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .tabs__tab h1 {
+    font-size: 2em; }
+  .tabs__tab img {
+    width: 75%; }
+  .tabs__tab span {
+    color: #ec524fb7;
+    font-weight: 600;
+    text-align: center;
+    width: 149px;
+    font-size: 1em; }
+
+.catchbutton {
+  margin: 13px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: #ec524fb7;
+  color: white;
+  font-weight: 700; }
+
+.catchbutton:disabled {
+  cursor: not-allowed;
+  background-color: #818181; }
+
+/*# sourceMappingURL=PokemonTab.css.map */

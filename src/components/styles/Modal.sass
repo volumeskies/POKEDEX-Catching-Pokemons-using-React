@@ -1,0 +1,67 @@
+@import "colors"
+/*              MIXIN               */
+@mixin set_flex($direction, $justify, $align)
+    display: flex
+    flex-direction: $direction
+    justify-content: $justify
+    align-items: $align
+
+@mixin button_reset()
+    outline: none
+    text-decoration: none
+    display: inline-block
+    text-align: center
+    cursor: pointer
+    user-select: none
+    border: none
+/*-------------MODAL-------------*/
+.modal
+    position: fixed
+    overflow: auto
+    background-color: $bright-grey
+    background-color: rgba(0, 0, 0, 0.5)
+    width: 65.7%
+    top: 0
+    height: 100%
+    transform: translateX(-5%)
+    @include set_flex(column, center, center)
+    &__tabs
+        text-align: center
+        margin: 0.2em
+        margin-bottom: 0.6em
+        h1
+            font-size: 2em
+            margin-left: 13px
+        width: 600px
+        height: 400px
+        background-color: $custom-white
+        box-shadow: 4px 12px 21px -1px rgba(0,0,0,0.57)
+        border-radius: 20px
+        display: flex
+        align-items: center
+        img 
+            width: 35%
+            margin: 1.2em
+        h2 
+            color: $bright-grey
+            font-weight: 600
+            text-align: center
+            font-size: 1.5em
+            margin-left: 13px
+
+        span 
+            color: $pale-grey
+            font-weight: 600
+            text-align: center
+            font-size: 1.2em
+            margin-left: 13px
+    &__info
+        @include set_flex(column, space-between, flex-start)
+        margin-top: 1.5em
+    &__close
+        left: 28%
+        position: relative
+        @include button_reset()
+        width: 30px
+
+        
