@@ -1,7 +1,7 @@
 # POKEDEX
 My little ReactJS project – created for fun and imporving skills. 
 ## What tools are used?
-[React](https://github.com/facebook/react/), [ReactDOM](https://github.com/facebook/react/tree/master/packages/react-dom), [Node.js](https://nodejs.org/en/about/), [JSON Server](https://github.com/typicode/json-server), [Sass](https://github.com/sass/sass), [Babel](https://github.com/babel/babel)
+[React](https://github.com/facebook/react/), [ReactDOM](https://github.com/facebook/react/tree/master/packages/react-dom), [Node.js](https://nodejs.org/en/about/), [Webpack-dev-server](https://github.com/webpack/webpack-dev-server),[JSON Server](https://github.com/typicode/json-server), [Sass](https://github.com/sass/sass), [Babel](https://github.com/babel/babel)
 ## How to run project?
 ### Initialization:
 &emsp; All dependencies are already in `package.json` – you just need to install them
